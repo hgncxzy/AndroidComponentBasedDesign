@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feature_nav"
+    app:startDestination="@id/featureOneFragment">
+
+    <fragment
+        android:id="@+id/featureOneFragment"
+        android:name="com.xzy.demo.feature.FeatureOneFragment"
+        android:label="featrueOneFragment"
+        tools:layout="@layout/fragment_feature1">
+        <action
+            android:id="@+id/action_featureOneFragment_to_fragmentTwoFragment"
+            app:destination="@id/fragmentTwoFragment" />
+        <deepLink app:uri="http://www.xzy.com/app/feature/a" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwoFragment"
+        android:name="com.xzy.demo.feature.FeatureTwoFragment"
+        android:label="FragmentTwoFragment"
+        tools:layout="@layout/fragment_feature2" />
+</navigation>
