@@ -4,12 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
     tools:ignore="SpUsage">
 
     <TextView
         android:id="@+id/main"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/app_main"
         android:textSize="@dimen/dp_16"
@@ -19,7 +23,6 @@
         android:id="@+id/btnInclude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:text="@string/app_include"
         android:textSize="@dimen/dp_16"
         android:textAllCaps="false" />

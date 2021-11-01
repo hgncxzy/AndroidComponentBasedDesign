@@ -12,8 +12,4 @@
         android:label="MainFragment">
         <deepLink app:uri="http://www.xzy.com/app/home" />
     </fragment>
-    <activity
-        android:id="@+id/featureActivity"
-        android:name="com.xzy.demo.feature.FeatureActivity"
-        android:label="FeatureActivity"/>
 </navigation>
