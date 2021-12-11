@@ -15,5 +15,5 @@
     <activity
         android:id="@+id/featureActivity"
         android:name="com.xzy.demo.feature.FeatureActivity"
-        android:label="FeatureActivity"/>
+        android:label="FeatureActivity" />
 </navigation>
